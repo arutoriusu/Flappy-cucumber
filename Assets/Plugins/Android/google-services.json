@@ -1,0 +1,47 @@
+{
+  "project_info": {
+    "project_number": "202698212937",
+    "project_id": "flappy-thing-79000980-a870c",
+    "storage_bucket": "flappy-thing-79000980-a870c.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:202698212937:android:e6cf371896210a719b6198",
+        "android_client_info": {
+          "package_name": "com.AlekseyNesin.FlappyThing"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "202698212937-sfhpjss0v4pqe524vklihtbabv5dleoj.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.AlekseyNesin.FlappyThing",
+            "certificate_hash": "c93ca001f14e4d11acfde943c0dc4ae41f856832"
+          }
+        },
+        {
+          "client_id": "202698212937-2iejnttgo1vd6n4u09kh62qmoht9sg01.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyA1DBTKsg-xMpX6_a86-rs13LsgjzzNf6c"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "202698212937-2iejnttgo1vd6n4u09kh62qmoht9sg01.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

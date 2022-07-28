@@ -1,0 +1,119 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &5568390285636994679
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 5047749971136306381}
+  - component: {fileID: 8188369097975550824}
+  - component: {fileID: 6216683850879117218}
+  - component: {fileID: -972623355272912116}
+  - component: {fileID: 4426635896201297144}
+  m_Layer: 0
+  m_Name: PrefCrates
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &5047749971136306381
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5568390285636994679}
+  m_LocalRotation: {x: 0, y: 1, z: 0, w: 0}
+  m_LocalPosition: {x: -0, y: 2.9, z: 5}
+  m_LocalScale: {x: 100, y: 120, z: 150}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 180, z: 0}
+--- !u!33 &8188369097975550824
+MeshFilter:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5568390285636994679}
+  m_Mesh: {fileID: -1559039394638054300, guid: 5c022e73f63874b41b028f94e1fb54da, type: 3}
+--- !u!23 &6216683850879117218
+MeshRenderer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5568390285636994679}
+  m_Enabled: 1
+  m_CastShadows: 1
+  m_ReceiveShadows: 1
+  m_DynamicOccludee: 1
+  m_MotionVectors: 1
+  m_LightProbeUsage: 1
+  m_ReflectionProbeUsage: 1
+  m_RayTracingMode: 2
+  m_RenderingLayerMask: 1
+  m_RendererPriority: 0
+  m_Materials:
+  - {fileID: 2100000, guid: 31bc02a5bb562dc458bec03a19708c3a, type: 2}
+  m_StaticBatchInfo:
+    firstSubMesh: 0
+    subMeshCount: 0
+  m_StaticBatchRoot: {fileID: 0}
+  m_ProbeAnchor: {fileID: 0}
+  m_LightProbeVolumeOverride: {fileID: 0}
+  m_ScaleInLightmap: 1
+  m_ReceiveGI: 1
+  m_PreserveUVs: 0
+  m_IgnoreNormalsForChartDetection: 0
+  m_ImportantGI: 0
+  m_StitchLightmapSeams: 1
+  m_SelectedEditorRenderState: 3
+  m_MinimumChartSize: 4
+  m_AutoUVMaxDistance: 0.5
+  m_AutoUVMaxAngle: 89
+  m_LightmapParameters: {fileID: 0}
+  m_SortingLayerID: 0
+  m_SortingLayer: 0
+  m_SortingOrder: 0
+--- !u!114 &-972623355272912116
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5568390285636994679}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c4b0460d4b8f8f94d9a5b21ed916d373, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  walls:
+  - {fileID: 5568390285636994679}
+  - {fileID: 8257884463652449758, guid: 69263924df699bb4da182f8e6d9d663a, type: 3}
+  - {fileID: 2052990759363113214, guid: cc9ace612420763408e4b0931f05de34, type: 3}
+  - {fileID: 3589883463412035478, guid: 07aacbf25af069649aed2a1ae3fe5b4a, type: 3}
+  - {fileID: 4575414175833464145, guid: 2ea73d9dd7cf3424d8cd0c08d24c28d5, type: 3}
+  - {fileID: 8384157890449070710, guid: bf4e5ad58a0ab62488a68dbbe0b005ba, type: 3}
+  - {fileID: 8929547263876380364, guid: fb745bedbb4869d469cff31394e0f603, type: 3}
+  - {fileID: 1550043585823013856, guid: e1aca94310651c143ad21c857bea5068, type: 3}
+  score: {fileID: 999704794444914947, guid: ac613e16b0e0f554ea1a4ae58f0e861b, type: 3}
+  star: {fileID: 1627317873955074082, guid: bac4294d58256ed4a9ff444edb6d0ccf, type: 3}
+--- !u!65 &4426635896201297144
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5568390285636994679}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 0.021000009, y: 0.035999995, z: -0.02}
+  m_Center: {x: 0.00049999496, y: 0.017999997, z: 0.032}
